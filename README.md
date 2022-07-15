@@ -1,1 +1,2 @@
-Este repositorio pertenece al proyecto final del curso de fundamentos en programacion web
+# Mi Primer Proyecto Web
+Este es mi proyecto web para el curso Desarrollador Web Jr.
