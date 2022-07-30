@@ -1,0 +1,101 @@
+
+body{
+    background-color: rgba(83, 94, 87, 0.616);
+}
+
+#parteuno{
+    background-color: rgba(34, 30, 32, 0.582);
+}
+
+#miporta{
+    color: rgb(225, 236, 226);
+    text-align: center;
+    padding-top: 40px;
+}
+
+#enlace{
+    color: rgb(217, 228, 218);
+    margin-left: 500px;
+    background-color: rgb(23, 139. 124, 0.849);    
+}
+
+nav{
+    background-color: rgba(122, 122, 122, 0.699);
+}
+
+#pokemon{
+    background-color: rgb(177, 175, 175);
+    margin-left: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    margin-right: 903px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 10px;
+}
+
+
+
+.imag{
+    border-radius: 80px;
+    border: 5px solid rgb(105, 107, 105);
+}
+
+#circle{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(65, 63, 63);
+}
+
+#textop{
+    display: inline-block;
+}
+
+#tienda{
+    background-color: rgb(177, 175, 175);
+    margin-left: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    margin-right: 903px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 10px;
+}
+
+#solar{
+    background-color: rgb(177, 175, 175);
+    margin-left: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    margin-right: 903px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 10px;
+}
+
+#proyecto{
+    background-color: rgb(177, 175, 175);
+    margin-left: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    margin-right: 903px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 10px;
+}
