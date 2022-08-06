@@ -1,101 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
 
 body{
-    background-color: rgba(83, 94, 87, 0.616);
+    margin: 0px;
+    background-color: #261782;
+    background-image: url('data:image/jpeg;base64,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');
+    background-size: 100%;
+}
+
+#titulo{
+    background-color: #FF9900;
+}
+
+h1{
+    display: inline-block;
+    padding-bottom: 20px;
+    color: #1b144d;
+    font-size: 80px;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+#logo{
+    width: 100px;
+    padding-left: 420px;
+    padding-top: 50px;
+}
+
+#navegacion{
+    background-color: #a66324;
+    font-family: 'Mukta', sans-serif;
+}
+
+
+#portafolio:hover{
+    background-color: #995c29;
+    color: #190F5C;
+}
+
+#proyectos:hover{
+    background-color: #995c29;
+    color: #190F5C;
+}
+
+#acerca:hover{
+    background-color: #995c29;
+    color: #190F5C;
+}
+
+#portafolio{
+    padding-left: 220px;
+    padding-right: 220px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+     color: #190F5C;
+}
+
+#proyectos{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    color: #190F5C;
+}
+
+#acerca{
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #190F5C;
 }
 
 #parteuno{
-    background-color: rgba(34, 30, 32, 0.582);
+    margin-bottom: 100px;
 }
 
-#miporta{
-    color: rgb(225, 236, 226);
+#divsistema{
+    width: 220px;
+    height: 220px;
+    background-color: #593642;
+    margin-left: 80px;
+    margin-right: 50px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#divpokedex{
+    width: 220px;
+    height: 220px;
+    background-color: #593642;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+#divproyecto{
+    width: 220px;
+    height: 220px;
+    background-color: #593642;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#divtienda{
+    width: 220px;
+    height: 220px;
+    background-color: #593642;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.flotar{
+    float: left;
+    border-radius: 5px;
+}
+
+#contenedor{
+    overflow: hidden;
+}
+
+.tamaño{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 195px;
+}
+
+p{
     text-align: center;
-    padding-top: 40px;
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
-#enlace{
-    color: rgb(217, 228, 218);
-    margin-left: 500px;
-    background-color: rgb(23, 139. 124, 0.849);    
-}
-
-nav{
-    background-color: rgba(122, 122, 122, 0.699);
-}
-
-#pokemon{
-    background-color: rgb(177, 175, 175);
-    margin-left: 90px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 2px;
-    margin-right: 903px;
-    border-top-left-radius: 70px;
-    border-top-right-radius: 70px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    margin-top: 10px;
-}
-
-
-
-.imag{
-    border-radius: 80px;
-    border: 5px solid rgb(105, 107, 105);
-}
-
-#circle{
-    width: 10px;
-    height: 10px;
-    background-color: rgb(65, 63, 63);
-}
-
-#textop{
-    display: inline-block;
-}
-
-#tienda{
-    background-color: rgb(177, 175, 175);
-    margin-left: 90px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 2px;
-    margin-right: 903px;
-    border-top-left-radius: 70px;
-    border-top-right-radius: 70px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    margin-top: 10px;
-}
-
-#solar{
-    background-color: rgb(177, 175, 175);
-    margin-left: 90px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 2px;
-    margin-right: 903px;
-    border-top-left-radius: 70px;
-    border-top-right-radius: 70px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    margin-top: 10px;
-}
-
-#proyecto{
-    background-color: rgb(177, 175, 175);
-    margin-left: 90px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 2px;
-    margin-right: 903px;
-    border-top-left-radius: 70px;
-    border-top-right-radius: 70px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    margin-top: 10px;
+.tamañodos{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 195px;
 }

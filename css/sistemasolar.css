@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+    background-image: url('https://w0.peakpx.com/wallpaper/72/88/HD-wallpaper-stars-space-night-starry-sky.jpg');
+}
+
+#titulo{
+    background-color: #080808;
+}
+
+h1{
+    display: inline-block;
+    padding-bottom: 20px;
+    color: #818181;
+    font-size: 80px;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+#logo{
+    width: 100px;
+    padding-left: 420px;
+    padding-top: 50px;
+}
+
+#navegacion{
+    background-color: #383735;
+    font-family: 'Mukta', sans-serif;
+}
+
+
+#portafolio:hover{
+    background-color: #5c5c5c;
+    color: #292929;
+}
+
+#proyectos:hover{
+    background-color: #5c5c5c;
+    color: #292929;
+}
+
+#acerca:hover{
+    background-color: #5c5c5c;
+    color: #292929;
+}
+
+#portafolio{
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #18181b;
+}
+
+#proyectos{
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    color: #18181b;
+}
+
+#acerca{
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #18181b;
+}
+
+#parteuno{
+    margin-bottom: 100px;
+}
+
+
+a{
+    color:yellow; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size:30px;
+}
+
+#mercurio{
+    color: rgba(252, 173, 2, 0.788);
+    font-size: 30px;
+}
+
+#venus{
+    color: rgb(179, 114, 30);
+    font-size: 30px;
+}
+
+#tierra{
+    color: rgb(48, 36, 156);
+    font-size: 30px;
+}
+
+#marte{
+    color:rgb(199, 100, 54);
+    font-size: 30px;
+}
+
+#jupiter{
+    color: rgb(133, 136, 122);
+    font-size: 30px;
+}
+
+#saturno{
+    color: rgb(177, 148, 54);
+    font-size: 30px;
+}
+
+#urano{
+    color: rgb(131, 186, 218);
+    font-size: 30px;
+}
+
+#neptuno{
+    color: rgb(69, 122, 192);
+    font-size: 30px;
+}
+
+#mercurioimg{
+    width: 100px;
+    height: 95px;
+    margin-left: 50px;
+}
+
+#venusimg{
+    width: 200px;
+    height: 190px;
+    margin-left: 50px;
+}
+
+#tierraimg{
+    width: 210px;
+    height: 200px;
+    margin-left: 100px;
+}
+
+#marteimg{
+    width: 120px;
+    height: 110px;
+    margin-left: 200px;
+}
+
+#jupiterimg{
+    width: 295px;
+    height: 285px;
+    margin-left: 250px;
+}
+
+#saturnoimg{
+    width: 280px;
+    height: 190px;
+    margin-left: 380px;
+}
+
+#uranoimg{
+    width: 150px;
+    height: 180px;
+    margin-left: 400px;
+}
+
+#neptunoimg{
+    width: 120px;
+    height: 120px;
+    margin-left: 150px;
+}
+
+p{
+    color: rgb(124, 148, 170);
+    width: 700px;
+    font-size: 20px;
+}
+
+li{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+#parrafo{
+    padding-left: 400px;
+    font-size: 50px;
+}
